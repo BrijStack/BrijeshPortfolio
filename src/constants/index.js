@@ -27,12 +27,12 @@ export const navigation = [
   {
     id: "1",
     title: "Experience",
-    url: "/#/Experiences",
+    url: "/brijeshportfolio/#/experiences",
   },
   {
     id: "2",
     title: "Projects",
-    url: "/#/Projects",
+    url: "/brijeshportfolio/#/Projects",
   },
   {
     id: "3",
