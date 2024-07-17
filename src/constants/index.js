@@ -27,12 +27,12 @@ export const navigation = [
   {
     id: "1",
     title: "Experience",
-    url: "/Experiences",
+    url: "#/Experiences",
   },
   {
     id: "2",
     title: "Projects",
-    url: "/Projects",
+    url: "#/Projects",
   },
   {
     id: "3",
