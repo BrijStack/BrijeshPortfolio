@@ -6,6 +6,7 @@ import Projects from "./components/Projects";
 import ProgressBar from "./design/ProgressBar";
 import Experience from "./components/Experience";
 import Skills from "./components/Skills";
+import Contact from "./components/Contact";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
           <Route path="/projects" element={<Projects />} />
           <Route path="/experiences" element={<Experience />} />
           <Route path="/skills" element={<Skills />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
       </div>

@@ -57,8 +57,8 @@ const Experience = () => {
   return (
     <>
       <div className="my-20">
-        <div className="flex flex-col gap-10 justify-center items-center text-white py-5 my-20">
-          <div className="py-2 overflow-hidden">
+        <div className="flex flex-col gap-6 md:gap-10 justify-center items-center text-white py-5 my-20">
+          <div className="py-8 md:py-2 overflow-hidden">
             <motion.div
               variants={textAnimationVar}
               initial="initial"

@@ -22,7 +22,7 @@ export const navigation = [
   {
     id: "0",
     title: "Overview",
-    url: "/brijstack",
+    url: "/",
   },
   {
     id: "1",
@@ -37,7 +37,7 @@ export const navigation = [
   {
     id: "3",
     title: "Contact",
-    url: "#Contact",
+    url: "/brijeshportfolio/#/Contact",
   },
 ];
 
@@ -60,22 +60,22 @@ export const footer = [
   {
     id: "7",
     title: "Overview",
-    url: "#Overview",
+    url: "/brijeshportfolio/#/Overview",
   },
   {
     id: "6",
     title: "Experience",
-    url: "#Experience",
+    url: "/brijeshportfolio/#/Experience",
   },
   {
     id: "5",
     title: "Projects",
-    url: "#Projects",
+    url: "/brijeshportfolio/#/Projects",
   },
   {
     id: "5",
     title: "Contact",
-    url: "#Contact",
+    url: "/brijeshportfolio/#/experiences",
   },
 ];
 

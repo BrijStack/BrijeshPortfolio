@@ -66,6 +66,7 @@ const Hero = () => {
                 whileTap="whiletap"
                 className="text-[15px] h-16 rounded-[5px] relative z-0 font-medium"
                 px="px-20"
+                href="/contact"
               >
                 Get in touch
               </Button>

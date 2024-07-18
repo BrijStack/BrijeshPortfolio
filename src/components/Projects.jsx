@@ -8,8 +8,8 @@ import { FaLocationArrow } from "react-icons/fa";
 const Projects = () => {
   return (
     <div className="pt-4">
-      <div className="flex flex-col gap-10 justify-center items-center text-white pt-5 my-16">
-        <div className="py-2 overflow-hidden">
+      <div className="flex flex-col gap-6 md:gap-10 justify-center items-center text-white pt-5 my-16">
+        <div className="py-8 md:py-2 overflow-hidden ">
           <motion.div
             variants={textAnimationVar}
             initial="initial"
@@ -22,7 +22,7 @@ const Projects = () => {
           variants={fadeTextAnimation}
           initial="initial"
           whileInView="animate"
-          className="text-slate-300 text-[20px] text-center px-20 leading-9"
+          className="text-slate-300 text-4 md:text-[20px] text-center px-8 md:px-20 leading-8 md:leading-9"
         >
           Step into the world of Brijesh K, where frontend elegance meets
           backend robustness. As a skilled Fullstack Developer, I specialize in
@@ -45,7 +45,7 @@ const Projects = () => {
           life!
         </motion.p>
       </motion.div> */}
-      <div className="pt-0">
+      <div className="pt-0 pb-4">
         <motion.div
           variants={fadeTextAnimation}
           initial="initial"
