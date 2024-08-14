@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import SkillAnimation from "./ui/SkillAnimation";
 import { fadeTextAnimation } from "../assets/config/motion";
+
 const Skills = () => {
   return (
     <div className="flex flex-wrap md:flex-nowrap justify-center items-center py-10">

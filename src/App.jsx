@@ -7,6 +7,7 @@ import ProgressBar from "./design/ProgressBar";
 import Experience from "./components/Experience";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
+import HeroSingle from "./components/HeroSingle";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Header />
         <Routes>
           <Route path="/" element={<Hero />} />
+          <Route path="/home" element={<HeroSingle />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/experiences" element={<Experience />} />
           <Route path="/skills" element={<Skills />} />

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -13,23 +13,26 @@
 
 @layer base {
   body {
-    @apply font-poppins bg-black-bg;
+    @apply font-urbanist bg-black-bg;
   }
   h1 {
-    @apply font-poppins text-[60px] md:text-[150px] md:leading-[7rem] leading-[5px];
+    @apply font-urbanist text-[60px] md:text-[150px] md:leading-[5.5rem] leading-[5px] tracking-wide;
   }
   h3 {
-    @apply font-poppins text-[25px] font-bold leading-10;
+    @apply font-urbanist text-[25px] font-bold leading-10;
   }
 }
 
 @layer components {
+  .hero-background {
+    background-image: url("./assets/Rectangle.png");
+  }
   .max-container {
     max-width: 1140px;
     margin: 0 auto;
   }
   .button {
-    @apply font-poppins text-xs font-bold uppercase;
+    @apply font-urbanist text-xs font-bold uppercase;
     background: linear-gradient(to right, white 50%, #ffa500 50%);
     background-size: 200% 100%;
     background-position: var(--bg-pos, 0% 0);

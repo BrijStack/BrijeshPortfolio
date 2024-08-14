@@ -1,5 +1,7 @@
 import myLogo from "./my-logo.svg";
 import profile from "./profile.png";
+import heroBackground from "./Rectangle.png";
+import profileCircle from "./profile-circle.png";
 import tripguide from "./tripguide.png";
 import porjectbg from "./portfolio/bg.png";
 import brainwave from "./portfolio/brainwave.svg";
@@ -22,6 +24,8 @@ import tesla from "./company/tesla.png";
 export {
   myLogo,
   profile,
+  profileCircle,
+  heroBackground,
   tripguide,
   brainwave,
   bankmodern,

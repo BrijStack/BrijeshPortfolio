@@ -27,17 +27,17 @@ export const navigation = [
   {
     id: "1",
     title: "Experience",
-    url: "/brijeshportfolio/#/experiences",
+    url: "experiences",
   },
   {
     id: "2",
     title: "Projects",
-    url: "/brijeshportfolio/#/Projects",
+    url: "Projects",
   },
   {
     id: "3",
     title: "Contact",
-    url: "/brijeshportfolio/#/Contact",
+    url: "Contact",
   },
 ];
 
@@ -60,22 +60,22 @@ export const footer = [
   {
     id: "7",
     title: "Overview",
-    url: "/brijeshportfolio/#/Overview",
+    url: "/",
   },
   {
     id: "6",
     title: "Experience",
-    url: "/brijeshportfolio/#/Experience",
+    url: "/Experience",
   },
   {
     id: "5",
     title: "Projects",
-    url: "/brijeshportfolio/#/Projects",
+    url: "/Projects",
   },
   {
     id: "5",
     title: "Contact",
-    url: "/brijeshportfolio/#/experiences",
+    url: "/experiences",
   },
 ];
 

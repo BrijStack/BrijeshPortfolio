@@ -9,7 +9,7 @@ const Projects = () => {
   return (
     <div className="pt-4">
       <div className="flex flex-col gap-6 md:gap-10 justify-center items-center text-white pt-5 my-16">
-        <div className="py-8 md:py-2 overflow-hidden ">
+        <div className="py-12  overflow-hidden ">
           <motion.div
             variants={textAnimationVar}
             initial="initial"
@@ -37,7 +37,7 @@ const Projects = () => {
         whileInView="animate"
         className="pt-5 pb-24 "
       >
-        <motion.p className="text-white font-poppins text-[45px] font-light leading-[6rem]">
+        <motion.p className="text-white font-urbanist text-[45px] font-light leading-[6rem]">
           Step into the world of Brijesh K, where frontend elegance meets
           backend robustness. As a skilled Fullstack Developer, I specialize in
           creating seamless digital experiences that marry sleek design with

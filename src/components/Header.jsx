@@ -3,7 +3,7 @@ import MenuSvg from "../assets/svg/MenuSvg";
 import Button from "./Button";
 import { navigation } from "../constants";
 import { textAnimationVar } from "../assets/config/motion";
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { enablePageScroll, disablePageScroll } from "scroll-lock";
 import { AnimatePresence, motion } from "framer-motion";
 import LogoSvg from "../assets/svg/LogoSvg";
@@ -71,21 +71,20 @@ const Header = () => {
                 {navigation.map((item) => (
                   <>
                     <motion.div className="flex flex-col items-center justify-center  lg:flex-col overflow-hidden ">
-                      <motion.a
+                      <motion.div
                         variants={textAnimationVar}
                         initial="initial"
                         animate="animate"
-                        href={item.url}
-                        key={item.id}
-                        onClick={handleClick}
-                        className={`  font-poppins text-[35px] md:text-[60px] uppercase text-black hover:text-orange-300 px-6 md:py-10 py-2 lg:-mr-0.26 lg:font-light ${
+                        className={`  font-urbanist text-[35px] md:text-[60px] uppercase text-black hover:text-orange-300 px-6 md:py-10 py-2 lg:-mr-0.26 lg:font-light ${
                           item.url === pathName.hash
                             ? "z-2 lg:text-orange-300"
                             : "lg:text-black"
                         } lg:leading-5`}
                       >
-                        {item.title}
-                      </motion.a>
+                        <Link to={item.url} key={item.id} onClick={handleClick}>
+                          {item.title}
+                        </Link>
+                      </motion.div>
                     </motion.div>
                   </>
                 ))}

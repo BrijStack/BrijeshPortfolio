@@ -4,8 +4,9 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { experiences } from "../constants";
-import { motion } from "framer-motion";
+import { motion, useInView } from "framer-motion";
 import { textAnimationVar } from "../assets/config/motion";
+import { useRef } from "react";
 
 const ExperienceCard = ({ experience }) => {
   return (
@@ -54,15 +55,17 @@ const ExperienceCard = ({ experience }) => {
 };
 
 const Experience = () => {
+  const ref = useRef(null);
+  const isInView = useInView(ref);
   return (
     <>
       <div className="my-20">
         <div className="flex flex-col gap-6 md:gap-10 justify-center items-center text-white py-5 my-20">
-          <div className="py-8 md:py-2 overflow-hidden">
+          <div className="py-8  overflow-hidden" ref={ref}>
             <motion.div
               variants={textAnimationVar}
               initial="initial"
-              animate="animate"
+              animate={isInView ? "animate" : "initial"}
             >
               <h1>Experience</h1>
             </motion.div>

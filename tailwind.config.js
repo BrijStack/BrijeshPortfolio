@@ -3,8 +3,11 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      backgoundImage: {
+        "hero-pattern": "url('./src/assets/Rectangle.png')",
+      },
       fontFamily: {
-        poppins: ["Poppins", "sans-serif"],
+        urbanist: ["Urbanist", "sans-serif"],
       },
       colors: {
         "black-bg": "#181818",
