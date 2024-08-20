@@ -23,7 +23,7 @@ const HeroSingle = () => {
                 initial="initial"
                 animate="animate"
               >
-                <h1 className="text-white pt-8 pb-14">Georgy Georgy</h1>
+                <h1 className="text-white pt-8 pb-14">Brijesh K</h1>
               </motion.div>
             </div>
 

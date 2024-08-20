@@ -16,7 +16,7 @@
     @apply font-urbanist bg-black-bg;
   }
   h1 {
-    @apply font-urbanist text-[60px] md:text-[150px] md:leading-[5.5rem] leading-[5px] tracking-wide;
+    @apply font-urbanist text-[42px] md:text-[100px] md:leading-[4.5rem] leading-[2px] tracking-wide;
   }
   h3 {
     @apply font-urbanist text-[25px] font-bold leading-10;
