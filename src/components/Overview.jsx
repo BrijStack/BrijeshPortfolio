@@ -27,10 +27,10 @@ const Overview = () => {
         </div>
         <div className="flex justify-center items-center md:w-[40%]">
           <p className="text-white text-[14px] md:text-[19px] text-center leading-8">
-            As a passionate data scientist, with expertise in machine learning,
-            AI, and data analytics, I thrive on the challenges of exploring
-            complex data landscapes and uncovering meaningful patterns that
-            drive innovation
+            As a skilled full stack developer, I excel in creating dynamic,
+            scalable applications. I enjoy the challenges of modern web
+            development, from crafting seamless user experiences to building
+            robust backend systems that drive innovation.
           </p>
         </div>
         <div className="mt-5">

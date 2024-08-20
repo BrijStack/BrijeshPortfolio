@@ -30,28 +30,27 @@ const About = () => {
         >
           <div>
             <p>
-              Hi there! I&apos;m [Your Name], a data scientist specializing in
-              data analytics, predictive modeling, natural language
-              divprocessing, machine learning, and AI chatbots. With a passion
-              for unraveling insights from complex datasets, I&apos;m dedicated
-              to helping businesses make informed decisions and stay ahead in
-              today&apos;s data-driven world.
+              Hi there! I&apos;m Brijesh K, a full stack developer with
+              expertise in JavaScript, React, WordPress, Next.js, Tailwind CSS
+              and PHP (not core PHP). My passion lies in creating dynamic,
+              user-friendly web applications that meet modern standards.
             </p>
           </div>
           <div>
             <p>
-              I bring a blend of technical expertise, hands-on experience, and a
-              commitment to clear communication to every project. Whether
-              it&apos;s uncovering hidden patterns, predicting future trends, or
-              automating processes with AI, I&apos;m here to help you harness
-              the full potential of your data.
+              I enjoy combining the flexibility of React and JavaScript with the
+              power of Next.js for seamless performance, while using WordPress
+              for effective content management. With a strong grasp of Tailwind
+              CSS, I ensure every project has a sleek, responsive design.
             </p>
           </div>
           <div>
             <p>
-              Let&apos;s work together to transform your data into actionable
-              insights that drive real results. Get in touch, and let&apos;s
-              start unlocking the power of your data today!
+              Whether it&apos;s optimizing performance with Vite or integrating
+              robust backend solutions, I am committed to delivering
+              high-quality results. Download my resume by clicking the button
+              below and discover how I can help bring your ideas to life with
+              innovative web solutions!
             </p>
           </div>
         </motion.div>

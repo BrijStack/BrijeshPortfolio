@@ -20,6 +20,8 @@ import ts from "./portfolio/ts.svg";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
+import innovkraft from "./company/innovkraft.png";
+import foiwe from "./company/foiwe.png";
 import tesla from "./company/tesla.png";
 export {
   myLogo,
@@ -44,5 +46,7 @@ export {
   meta,
   shopify,
   starbucks,
+  innovkraft,
+  foiwe,
   tesla,
 };

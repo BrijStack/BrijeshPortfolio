@@ -14,9 +14,9 @@ const Button = ({
 }) => {
   const classes = `button  ${
     relative ? "relative" : ""
-  } inline-flex items-center justify-center h-14  ${px || "px-16"} ${
-    white ? "text-white" : "text-black"
-  } ${className || ""}`;
+  } inline-flex items-center justify-center h-14 text-center  leading-5 ${
+    px || "px-16"
+  } ${white ? "text-white" : "text-black"} ${className || ""}`;
   ``;
 
   const renderButton = () => (

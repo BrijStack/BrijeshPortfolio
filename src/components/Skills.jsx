@@ -9,12 +9,12 @@ const Skills = () => {
         variants={fadeTextAnimation}
         initial="initial"
         whileInView="animate"
-        className="text-white w-full flex items-start justify-center flex-col pr-20"
+        className="text-white w-full flex items-start justify-center flex-col md:pr-20 gap-4"
       >
-        <h1 className="leading-[8rem] text-[80px]">
+        <h1 className=" leading-[3rem] md:leading-[6rem] text-[42px] md:text-[80px]">
           Elevate my web development skills with ease
         </h1>
-        <p className="text-slate-300 leading-9 text-lg">
+        <p className="text-slate-300 leading-9 text-[16px] md:text-lg">
           I am dedicated to mastering the latest technologies and best practices
           in the industry. From front-end design to back-end development, I
           continually strive to create seamless, efficient, and innovative web
@@ -26,7 +26,7 @@ const Skills = () => {
         variants={fadeTextAnimation}
         initial="initial"
         whileInView="animate"
-        className="flex flex-col justify-center w-full items-center overflow-hidden  whitespace-nowrap h-[800px] "
+        className="flex flex-col justify-center w-full items-center overflow-hidden  whitespace-nowrap h-[400px] md:h-[800px] mb-[-100px] md:mb-0"
       >
         <SkillAnimation />
       </motion.div>

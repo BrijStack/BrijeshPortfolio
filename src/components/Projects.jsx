@@ -1,19 +1,22 @@
-import { motion } from "framer-motion";
+import { motion, useInView } from "framer-motion";
 import { fadeTextAnimation, textAnimationVar } from "../assets/config/motion";
 import { projects } from "../constants";
 import { PinContainer } from "./ui/3d-pin";
 import { porjectbg } from "../assets";
 import { FaLocationArrow } from "react-icons/fa";
+import { useRef } from "react";
 
 const Projects = () => {
+  const ref = useRef(null);
+  const isInView = useInView(ref);
   return (
     <div className="pt-4">
       <div className="flex flex-col gap-6 md:gap-10 justify-center items-center text-white pt-5 my-16">
-        <div className="py-12  overflow-hidden ">
+        <div className="py-12  overflow-hidden " ref={ref}>
           <motion.div
             variants={textAnimationVar}
             initial="initial"
-            animate="animate"
+            animate={isInView ? "animate" : "initial"}
           >
             <h1>My Projects</h1>
           </motion.div>
@@ -22,7 +25,7 @@ const Projects = () => {
           variants={fadeTextAnimation}
           initial="initial"
           whileInView="animate"
-          className="text-slate-300 text-4 md:text-[20px] text-center px-8 md:px-20 leading-8 md:leading-9"
+          className="text-slate-300 text-[13px] md:text-[20px] text-center md:px-20 leading-8 md:leading-9"
         >
           Step into the world of Brijesh K, where frontend elegance meets
           backend robustness. As a skilled Fullstack Developer, I specialize in
